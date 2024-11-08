@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+  }
+
+  h1 {
+    color: blueviolet;
+    font-size: 40px;
+  }
+  h2 {
+    color: red;
+    background: yellow;
+  }
+  h3 {
+    color: blue;
+    font-size: 20px;
+  }
+  p {
+    font-family: cursive;
+  }
+  /*Todos los comnetarios largos*/
+  button {
+    color: white;
+    background: black;
+    border-radius: 10px;
+  }
