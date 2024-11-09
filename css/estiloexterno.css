@@ -1,25 +1,67 @@
+/*centrados generales*/
 * {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  h1 {
-    color: blueviolet;
-    font-size: 40px;
-  }
-  h2 {
-    color: red;
-    background: yellow;
-  }
-  h3 {
-    color: blue;
-    font-size: 20px;
-  }
-  p {
-    font-family: cursive;
-  }
-  /*Todos los comnetarios largos*/
-  button {
-    color: white;
-    background: black;
-    border-radius: 10px;
-  }
+h1 {
+  color: blueviolet;
+  font-size: 40px;
+}
+h2 {
+  color: red;
+  background: yellow;
+}
+h3 {
+  color: blue;
+  font-size: 20px;
+}
+p {
+  font-family: cursive;
+}
+/*Todos los comnetarios largos*/
+button {
+  color: white;
+  background: black;
+  border-radius: 10px;
+}
+.titulos {
+  color: green;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+#id_pie_pagina_uce {
+  color: red;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  background: blue;
+}
+/*
+img[src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"]{
+  width: 200xp;
+  height: 150px;
+}*/
+
+img[src*=".png"] {
+  width: 200xp;
+  height: 150px;
+}
+input[type="text"] {
+  background-color: grey;
+}
+
+button:hover {
+  color: black;
+  background: yellow;
+}
+.titulos:hover {
+  color: black;
+  background: yellow;
+}
+
+/* Combinacion de selectores*/
+h1,
+h3,
+h5 {
+  color: red;
+  background: yellow;
+}
